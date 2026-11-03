@@ -1,0 +1,41 @@
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" rx="24" fill="#070a12" />
+  <rect x="1" y="1" width="798" height="518" rx="23" stroke="#1e293b" stroke-width="2" />
+  <circle cx="32" cy="32" r="6" fill="#ef4444" />
+  <circle cx="52" cy="32" r="6" fill="#f59e0b" />
+  <circle cx="72" cy="32" r="6" fill="#10b981" />
+  <text x="108" y="37" fill="#64748b" font-family="monospace" font-size="13">safenet-os-v1.0.0 // live_cluster: active_nodes=1,420</text>
+  <line x1="0" y1="58" x2="800" y2="58" stroke="#1e293b" stroke-width="1.5" />
+  <rect x="24" y="80" width="220" height="416" rx="16" fill="#0c1220" stroke="#1e293b" />
+  <text x="44" y="116" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="bold">DEVICE TELEMETRY</text>
+  <text x="44" y="146" fill="#94a3b8" font-family="monospace" font-size="12">IP: 192.168.88.1</text>
+  <text x="44" y="172" fill="#94a3b8" font-family="monospace" font-size="12">UPTIME: 99.98%</text>
+  <text x="44" y="198" fill="#94a3b8" font-family="monospace" font-size="12">THREATS: 0 DETECTED</text>
+  <rect x="44" y="226" width="180" height="8" rx="4" fill="#1e293b" />
+  <rect x="44" y="226" width="145" height="8" rx="4" fill="#38bdf8" />
+  <text x="44" y="260" fill="#10b981" font-family="monospace" font-size="12">LATENCY: 14ms</text>
+  <text x="44" y="286" fill="#a855f7" font-family="monospace" font-size="12">MEM DUMP: OK</text>
+  <rect x="44" y="320" width="180" height="150" rx="12" fill="#070c18" stroke="#38bdf8" stroke-opacity="0.3" />
+  <text x="56" y="350" fill="#f8fafc" font-family="sans-serif" font-size="13" font-weight="600">Mobile Capacitor</text>
+  <text x="56" y="374" fill="#64748b" font-family="sans-serif" font-size="11">Biometric security sync</text>
+  <text x="56" y="410" fill="#34d399" font-family="monospace" font-size="11">[SECURE LINKED]</text>
+  <text x="56" y="434" fill="#38bdf8" font-family="monospace" font-size="11">SUPABASE REALTIME</text>
+
+  <rect x="264" y="80" width="512" height="416" rx="16" fill="#0a0f1d" stroke="#1e293b" />
+  <line x1="264" y1="180" x2="776" y2="180" stroke="#1e293b" stroke-dasharray="4 4" />
+  <line x1="264" y1="280" x2="776" y2="280" stroke="#1e293b" stroke-dasharray="4 4" />
+  <line x1="264" y1="380" x2="776" y2="380" stroke="#1e293b" stroke-dasharray="4 4" />
+  <line x1="434" y1="80" x2="434" y2="496" stroke="#1e293b" stroke-dasharray="4 4" />
+  <line x1="604" y1="80" x2="604" y2="496" stroke="#1e293b" stroke-dasharray="4 4" />
+  <circle cx="420" cy="220" r="8" fill="#38bdf8" />
+  <circle cx="420" cy="220" r="24" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="2" />
+  <circle cx="580" cy="180" r="8" fill="#a855f7" />
+  <circle cx="580" cy="180" r="20" stroke="#a855f7" stroke-opacity="0.3" stroke-width="2" />
+  <circle cx="640" cy="340" r="8" fill="#10b981" />
+  <circle cx="640" cy="340" r="22" stroke="#10b981" stroke-opacity="0.3" stroke-width="2" />
+  <path d="M420 220 Q500 160 580 180 T640 340" stroke="#38bdf8" stroke-width="3" fill="none" stroke-dasharray="6 6" />
+  <rect x="290" y="110" width="230" height="80" rx="12" fill="#0f172a" fill-opacity="0.9" stroke="#38bdf8" stroke-opacity="0.4" />
+  <text x="306" y="138" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold">Nairobi Central Hub</text>
+  <text x="306" y="160" fill="#94a3b8" font-family="sans-serif" font-size="12">Live Nodes: 890 // Packets: 4.8 GB/s</text>
+  <text x="306" y="178" fill="#22c55e" font-family="monospace" font-size="11">STATUS: OPERATIONAL</text>
+</svg>

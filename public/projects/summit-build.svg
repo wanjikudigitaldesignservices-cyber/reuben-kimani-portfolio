@@ -1,0 +1,20 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#110B07"/>
+  <rect width="1200" height="900" rx="48" fill="url(#paint0_radial)"/>
+  <rect x="82" y="78" width="1036" height="744" rx="34" fill="#16110D" stroke="rgba(255,255,255,0.14)"/>
+  <path d="M132 676L304 504L392 562L554 388L712 478L926 256L1062 384" stroke="#FED7AA" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8"/>
+  <rect x="148" y="148" width="322" height="212" rx="28" fill="#F97316" fill-opacity="0.14"/>
+  <rect x="514" y="148" width="548" height="120" rx="28" fill="#FFEDD5" fill-opacity="0.06"/>
+  <rect x="514" y="292" width="548" height="120" rx="28" fill="#FFEDD5" fill-opacity="0.05"/>
+  <rect x="148" y="718" width="914" height="56" rx="18" fill="#FFEDD5" fill-opacity="0.06"/>
+  <text x="172" y="238" fill="#FFF7ED" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="-2">SUMMIT</text>
+  <text x="172" y="298" fill="#FDBA74" font-family="Arial, Helvetica, sans-serif" font-size="34" letter-spacing="9">CONSTRUCTION AUTHORITY SYSTEM</text>
+  <text x="552" y="224" fill="#FFE7D3" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="5">PROJECT CREDIBILITY</text>
+  <text x="552" y="368" fill="#FFE7D3" font-family="Arial, Helvetica, sans-serif" font-size="28" letter-spacing="5">HIGHER-VALUE BID POSITIONING</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1018 122) rotate(141.606) scale(858.949 1233.27)">
+      <stop stop-color="#F97316" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#120A06"/>
+    </radialGradient>
+  </defs>
+</svg>

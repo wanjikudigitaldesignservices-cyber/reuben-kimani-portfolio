@@ -1,0 +1,23 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#081014"/>
+  <rect width="1200" height="900" rx="48" fill="url(#paint0_radial)"/>
+  <rect x="80" y="80" width="1040" height="740" rx="38" fill="#0C151B" stroke="rgba(255,255,255,0.14)"/>
+  <rect x="146" y="146" width="910" height="208" rx="28" fill="#E2E8F0" fill-opacity="0.06"/>
+  <rect x="146" y="402" width="286" height="270" rx="26" fill="#020617" fill-opacity="0.52" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="458" y="402" width="286" height="270" rx="26" fill="#020617" fill-opacity="0.52" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="770" y="402" width="286" height="270" rx="26" fill="#020617" fill-opacity="0.52" stroke="rgba(255,255,255,0.12)"/>
+  <path d="M202 660V470H374" stroke="#93C5FD" stroke-width="3" stroke-opacity="0.5"/>
+  <path d="M514 660V470H686" stroke="#93C5FD" stroke-width="3" stroke-opacity="0.5"/>
+  <path d="M826 660V470H998" stroke="#93C5FD" stroke-width="3" stroke-opacity="0.5"/>
+  <text x="176" y="236" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="80" font-weight="700" letter-spacing="-2">AXIS PROJECTS</text>
+  <text x="176" y="296" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="32" letter-spacing="7">CONSTRUCTION PORTFOLIO EXPERIENCE</text>
+  <text x="188" y="454" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="26" letter-spacing="3">PROJECT PROOF</text>
+  <text x="500" y="454" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="26" letter-spacing="3">SECTOR EXPERTISE</text>
+  <text x="812" y="454" fill="#E2E8F0" font-family="Arial, Helvetica, sans-serif" font-size="26" letter-spacing="3">EXECUTIVE TRUST</text>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1002 124) rotate(143.007) scale(880.724 1250.56)">
+      <stop stop-color="#38BDF8" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#04070D"/>
+    </radialGradient>
+  </defs>
+</svg>
