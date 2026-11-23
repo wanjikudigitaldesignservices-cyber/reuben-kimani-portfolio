@@ -10,13 +10,13 @@ export function Footer() {
   };
 
   return (
-    <footer className="relative bg-[#05070b] border-t border-white/10 pt-16 pb-12 px-6 sm:px-10 overflow-hidden">
+    <footer className="relative bg-[#060810] border-t border-purple-500/15 pt-16 pb-12 px-6 sm:px-10 overflow-hidden">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-white/10">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-purple-500/15">
           {/* Brand Col */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-indigo-600 text-slate-950 font-black text-lg">
+              <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-tr from-purple-600 to-blue-600 text-white font-black text-lg shadow-[0_0_15px_rgba(139,92,246,0.35)]">
                 RK
               </div>
               <span className="text-xl font-extrabold text-white tracking-wider">
@@ -26,8 +26,8 @@ export function Footer() {
             <p className="text-xs sm:text-sm text-slate-400 max-w-sm leading-relaxed">
               Full-Stack Web Developer &amp; Founder of LQD Creative. Helping businesses, startups, and SMEs build high-impact, high-converting websites and web applications.
             </p>
-            <div className="flex items-center gap-2 text-xs font-mono text-cyan-400">
-              <Terminal className="w-3.5 h-3.5" />
+            <div className="flex items-center gap-2 text-xs font-mono text-purple-300">
+              <Terminal className="w-3.5 h-3.5 text-blue-400" />
               <span>Nairobi, Kenya &bull; Direct: 0740396075</span>
             </div>
           </div>

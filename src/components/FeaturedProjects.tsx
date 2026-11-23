@@ -18,16 +18,16 @@ function GithubIcon({ className = "w-4 h-4" }: { className?: string }) {
 
 export function FeaturedProjects() {
   return (
-    <section id="projects" className="relative py-24 px-4 sm:px-8 bg-[#07090e]">
+    <section id="projects" className="relative py-24 px-4 sm:px-8 bg-[#080a14]">
       {/* Background ambient lighting */}
-      <div className="absolute top-1/4 right-0 w-96 h-96 bg-purple-600/10 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-cyan-600/10 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/4 right-0 w-96 h-96 bg-purple-600/10 rounded-full blur-[140px] pointer-events-none" />
+      <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-blue-600/10 rounded-full blur-[140px] pointer-events-none" />
 
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
           <div>
-            <div className="inline-flex items-center gap-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 px-3.5 py-1 text-xs font-mono font-semibold text-cyan-400 mb-4">
+            <div className="inline-flex items-center gap-2 rounded-full border border-purple-500/30 bg-purple-950/50 px-3.5 py-1 text-xs font-mono font-semibold text-purple-300 mb-4">
               <span>// REUBEN KIMANI PORTFOLIO ARCHIVES</span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight uppercase">
@@ -39,23 +39,23 @@ export function FeaturedProjects() {
           </p>
         </div>
 
-        {/* Projects Showcase Bento Cards - matching frame 11 */}
+        {/* Projects Showcase Bento Cards */}
         <div className="space-y-12">
           {featuredProjects.map((project: ProjectItem) => (
             <div
               key={project.id}
-              className="relative rounded-3xl border border-white/12 bg-slate-950/70 backdrop-blur-xl p-6 sm:p-10 shadow-[0_20px_60px_rgba(0,0,0,0.7)] transition-all duration-300 hover:border-cyan-400/40"
+              className="relative rounded-3xl border border-purple-500/20 bg-slate-950/70 backdrop-blur-xl p-6 sm:p-10 shadow-[0_20px_60px_rgba(10,5,30,0.7)] transition-all duration-300 hover:border-purple-400/40"
             >
-              {/* Card Header matching frame 11 */}
-              <div className="flex flex-wrap items-center justify-between gap-4 pb-8 border-b border-white/10">
+              {/* Card Header */}
+              <div className="flex flex-wrap items-center justify-between gap-4 pb-8 border-b border-purple-500/15">
                 <div className="flex items-center gap-5">
-                  {/* Big Neon Gradient Number */}
-                  <span className="text-4xl sm:text-5xl font-black tracking-tight bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400 bg-clip-text text-transparent">
+                  {/* Big Purple-Blue Gradient Number */}
+                  <span className="text-4xl sm:text-5xl font-black tracking-tight bg-gradient-to-r from-purple-400 via-indigo-300 to-blue-400 bg-clip-text text-transparent font-mono">
                     {project.number}
                   </span>
 
                   <div>
-                    <span className="text-[11px] font-mono tracking-widest text-cyan-400 uppercase font-bold block">
+                    <span className="text-[11px] font-mono tracking-widest text-purple-400 uppercase font-bold block">
                       {project.category}
                     </span>
                     <h3 className="text-xl sm:text-3xl font-extrabold text-white tracking-tight uppercase mt-0.5">
@@ -64,14 +64,14 @@ export function FeaturedProjects() {
                   </div>
                 </div>
 
-                {/* Right Action: Oval "LIVE PROJECT" button like frame 11 */}
+                {/* Right Action: Oval "LIVE PROJECT" button */}
                 <div className="flex items-center gap-3">
                   {project.githubUrl && (
                     <a
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="p-2.5 rounded-full border border-white/14 bg-white/5 text-slate-300 hover:text-white hover:bg-white/10 transition"
+                      className="p-2.5 rounded-full border border-purple-500/20 bg-purple-950/40 text-slate-300 hover:text-white hover:border-purple-400 hover:bg-purple-900/40 transition"
                       title="View GitHub Repository"
                     >
                       <GithubIcon className="w-4 h-4" />
@@ -83,10 +83,10 @@ export function FeaturedProjects() {
                       href={project.liveUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 rounded-full border-2 border-white/25 px-5 py-2 text-xs font-bold uppercase tracking-wider text-white hover:border-cyan-400 hover:text-cyan-300 hover:shadow-[0_0_20px_rgba(56,189,248,0.4)] transition-all duration-200"
+                      className="inline-flex items-center gap-2 rounded-full border border-purple-500/35 bg-purple-950/50 px-5 py-2 text-xs font-bold uppercase tracking-wider text-purple-200 hover:border-blue-400 hover:text-white hover:shadow-[0_0_20px_rgba(99,102,241,0.4)] transition-all duration-200"
                     >
                       <span>LIVE PROJECT</span>
-                      <ArrowUpRight className="w-3.5 h-3.5" />
+                      <ArrowUpRight className="w-3.5 h-3.5 text-blue-400" />
                     </a>
                   )}
                 </div>
@@ -95,7 +95,7 @@ export function FeaturedProjects() {
               {/* Tagline and description */}
               <div className="mt-6 grid grid-cols-1 lg:grid-cols-3 gap-6">
                 <div className="lg:col-span-2">
-                  <p className="text-sm sm:text-base font-semibold text-cyan-200">
+                  <p className="text-sm sm:text-base font-semibold text-purple-200">
                     {project.tagline}
                   </p>
                   <p className="mt-2 text-sm text-slate-300 leading-relaxed">
@@ -104,13 +104,13 @@ export function FeaturedProjects() {
                 </div>
 
                 {/* Key Outcomes */}
-                <div className="space-y-2 bg-white/[0.02] border border-white/8 rounded-2xl p-4">
-                  <span className="text-[11px] font-mono uppercase tracking-wider text-slate-400 block font-bold">
+                <div className="space-y-2 bg-purple-950/20 border border-purple-500/15 rounded-2xl p-4">
+                  <span className="text-[11px] font-mono uppercase tracking-wider text-purple-300 block font-bold">
                     Key Outcomes
                   </span>
                   {project.outcomes.map((outcome, idx) => (
                     <div key={idx} className="flex items-start gap-2 text-xs text-slate-200">
-                      <Check className="w-3.5 h-3.5 text-cyan-400 flex-shrink-0 mt-0.5" />
+                      <Check className="w-3.5 h-3.5 text-blue-400 flex-shrink-0 mt-0.5" />
                       <span>{outcome}</span>
                     </div>
                   ))}
@@ -150,7 +150,7 @@ export function FeaturedProjects() {
               </div>
 
               {/* Tech Stack Pills Footer */}
-              <div className="mt-6 pt-5 border-t border-white/10 flex flex-wrap items-center justify-between gap-3">
+              <div className="mt-6 pt-5 border-t border-purple-500/15 flex flex-wrap items-center justify-between gap-3">
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="text-[11px] font-mono uppercase text-slate-400 mr-2 font-bold">
                     Stack:
@@ -158,7 +158,7 @@ export function FeaturedProjects() {
                   {project.techStack.map((tech) => (
                     <span
                       key={tech}
-                      className="text-[11px] font-mono text-slate-300 bg-white/5 border border-white/10 rounded-lg px-2.5 py-1"
+                      className="text-[11px] font-mono text-purple-200 bg-purple-950/40 border border-purple-500/20 rounded-lg px-2.5 py-1"
                     >
                       {tech}
                     </span>
@@ -167,10 +167,10 @@ export function FeaturedProjects() {
 
                 <a
                   href="#contact"
-                  className="text-xs font-semibold text-cyan-400 hover:text-cyan-300 transition flex items-center gap-1"
+                  className="text-xs font-semibold text-purple-300 hover:text-blue-300 transition flex items-center gap-1"
                 >
                   <span>Build something similar</span>
-                  <ArrowUpRight className="w-3.5 h-3.5" />
+                  <ArrowUpRight className="w-3.5 h-3.5 text-blue-400" />
                 </a>
               </div>
             </div>

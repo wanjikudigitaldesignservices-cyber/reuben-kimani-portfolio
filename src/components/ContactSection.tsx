@@ -78,29 +78,29 @@ export function ContactSection() {
   };
 
   return (
-    <section id="contact" className="relative py-24 px-4 sm:px-8 bg-[#07090e]">
+    <section id="contact" className="relative py-24 px-4 sm:px-8 bg-[#080a14]">
       {/* Background glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-gradient-to-tr from-pink-600/10 via-purple-600/10 to-cyan-600/10 rounded-full blur-[140px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-gradient-to-tr from-purple-700/15 via-indigo-600/10 to-blue-600/15 rounded-full blur-[140px] pointer-events-none" />
 
       <div className="max-w-6xl mx-auto relative z-10">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <div className="inline-flex items-center gap-2 rounded-full border border-pink-500/30 bg-pink-500/10 px-4 py-1.5 text-xs font-mono font-semibold text-pink-400 mb-4">
+          <div className="inline-flex items-center gap-2 rounded-full border border-purple-500/30 bg-purple-950/50 px-4 py-1.5 text-xs font-mono font-semibold text-purple-300 mb-4">
             <Sparkles className="w-3.5 h-3.5" />
             <span>START A CONVERSATION</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight uppercase">
-            LET&apos;S BUILD YOUR DIGITAL EMPIRE
+            LET&apos;S BUILD YOUR DIGITAL PRODUCT
           </h2>
           <p className="mt-3 text-sm text-slate-400">
-            Have a project in mind, an architectural challenge, or ready to elevate your company? Drop a message below or call Reuben directly.
+            Have a project in mind, an architectural challenge, or ready to elevate your business? Drop a message below or reach Reuben directly.
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
           {/* Left Column: Direct Founder Contacts */}
           <div className="lg:col-span-5 space-y-6">
-            <div className="rounded-3xl border border-white/12 bg-slate-950/70 p-6 sm:p-8 backdrop-blur-xl shadow-xl">
+            <div className="rounded-3xl border border-purple-500/20 bg-slate-950/70 p-6 sm:p-8 backdrop-blur-xl shadow-xl">
               <h3 className="text-lg font-bold text-white uppercase tracking-tight mb-2">
                 Fast Response Channels
               </h3>
@@ -133,9 +133,9 @@ export function ContactSection() {
                 {/* Direct Phone */}
                 <a
                   href={profileData.phoneHref}
-                  className="flex items-center gap-4 p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-cyan-400 transition group"
+                  className="flex items-center gap-4 p-4 rounded-2xl bg-purple-950/30 border border-purple-500/20 hover:bg-purple-900/30 hover:border-purple-400 transition group"
                 >
-                  <div className="w-11 h-11 rounded-xl bg-cyan-500/20 flex items-center justify-center text-cyan-400 flex-shrink-0 group-hover:scale-110 transition-transform">
+                  <div className="w-11 h-11 rounded-xl bg-purple-500/20 flex items-center justify-center text-purple-400 flex-shrink-0 group-hover:scale-110 transition-transform">
                     <Phone className="w-5 h-5" />
                   </div>
                   <div className="flex-1 min-w-0">
@@ -146,15 +146,15 @@ export function ContactSection() {
                       {profileData.phone}
                     </span>
                   </div>
-                  <ArrowRight className="w-4 h-4 text-cyan-400 group-hover:translate-x-1 transition-transform" />
+                  <ArrowRight className="w-4 h-4 text-purple-400 group-hover:translate-x-1 transition-transform" />
                 </a>
 
                 {/* Email */}
                 <a
                   href={profileData.emailHref}
-                  className="flex items-center gap-4 p-4 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-pink-400 transition group"
+                  className="flex items-center gap-4 p-4 rounded-2xl bg-blue-950/30 border border-blue-500/20 hover:bg-blue-900/30 hover:border-blue-400 transition group"
                 >
-                  <div className="w-11 h-11 rounded-xl bg-pink-500/20 flex items-center justify-center text-pink-400 flex-shrink-0 group-hover:scale-110 transition-transform">
+                  <div className="w-11 h-11 rounded-xl bg-blue-500/20 flex items-center justify-center text-blue-400 flex-shrink-0 group-hover:scale-110 transition-transform">
                     <Mail className="w-5 h-5" />
                   </div>
                   <div className="flex-1 min-w-0">
@@ -320,7 +320,7 @@ export function ContactSection() {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-400 py-4 text-sm font-black uppercase tracking-wider text-slate-950 hover:brightness-110 shadow-[0_0_25px_rgba(236,72,153,0.4)] transition disabled:opacity-50"
+                    className="w-full flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 py-4 text-sm font-black uppercase tracking-wider text-white hover:brightness-110 shadow-[0_0_25px_rgba(139,92,246,0.4)] transition disabled:opacity-50"
                   >
                     <Send className="w-4 h-4" />
                     <span>{loading ? "TRANSMITTING TO SUPABASE..." : "TRANSMIT PROJECT BRIEF"}</span>

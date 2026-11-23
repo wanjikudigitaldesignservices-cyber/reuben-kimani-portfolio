@@ -22,7 +22,7 @@ export function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "bg-[#080a10]/80 backdrop-blur-xl border-b border-white/10 py-3 shadow-[0_10px_30px_rgba(0,0,0,0.5)]"
+          ? "bg-[#080a14]/90 backdrop-blur-xl border-b border-purple-500/20 py-3 shadow-[0_10px_30px_rgba(0,0,0,0.7)]"
           : "bg-transparent py-5"
       }`}
     >
@@ -32,7 +32,7 @@ export function Navbar() {
           href="#home"
           className="group flex items-center gap-3 text-white transition duration-200"
         >
-          <div className="relative w-10 h-10 rounded-xl overflow-hidden border-2 border-cyan-400 shadow-[0_0_20px_rgba(56,189,248,0.5)] group-hover:scale-105 transition-transform flex-shrink-0">
+          <div className="relative w-10 h-10 rounded-xl overflow-hidden border-2 border-purple-400 shadow-[0_0_20px_rgba(139,92,246,0.5)] group-hover:scale-105 transition-transform flex-shrink-0">
             <Image
               src="/photos/reuben-square.webp"
               alt="Reuben Kimani"
@@ -103,7 +103,7 @@ export function Navbar() {
 
           <Link
             href="#contact"
-            className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-cyan-400 to-indigo-500 px-4 py-1.5 text-xs font-bold text-slate-950 hover:brightness-110 shadow-[0_0_15px_rgba(34,211,238,0.4)] transition hover:-translate-y-0.5"
+            className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-purple-600 to-blue-600 px-4 py-1.5 text-xs font-bold text-white hover:brightness-110 shadow-[0_0_15px_rgba(139,92,246,0.4)] transition hover:-translate-y-0.5"
           >
             <span>Let&apos;s Talk</span>
             <ArrowUpRight className="w-3.5 h-3.5" />

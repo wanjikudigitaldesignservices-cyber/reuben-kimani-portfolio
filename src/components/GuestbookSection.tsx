@@ -112,7 +112,7 @@ export function GuestbookSection() {
   };
 
   return (
-    <section className="relative py-20 px-4 sm:px-8 bg-[#07090e] border-t border-white/5">
+    <section className="relative py-20 px-4 sm:px-8 bg-[#080a14] border-t border-purple-500/15">
       <div className="max-w-5xl mx-auto">
         <div className="text-center max-w-xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 rounded-full border border-purple-500/30 bg-purple-500/10 px-4 py-1.5 text-xs font-mono font-semibold text-purple-400 mb-3">
@@ -189,7 +189,7 @@ export function GuestbookSection() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-cyan-400 to-indigo-500 py-3 text-xs sm:text-sm font-bold text-slate-950 hover:brightness-110 transition shadow-[0_0_15px_rgba(56,189,248,0.3)] disabled:opacity-50"
+                className="w-full flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-purple-600 via-indigo-600 to-blue-600 py-3 text-xs sm:text-sm font-bold text-white hover:brightness-110 transition shadow-[0_0_20px_rgba(139,92,246,0.35)] disabled:opacity-50"
               >
                 <Send className="w-4 h-4" />
                 <span>{isSubmitting ? "Syncing to Supabase..." : "Sign Guestbook"}</span>
