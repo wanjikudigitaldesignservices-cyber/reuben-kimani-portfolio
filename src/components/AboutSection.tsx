@@ -40,9 +40,9 @@ export function AboutSection() {
             <div className="relative rounded-3xl border border-white/12 bg-slate-950/70 p-6 sm:p-8 backdrop-blur-xl shadow-xl">
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 pb-6 border-b border-white/10">
                 {/* Real Photo */}
-                <div className="relative w-24 h-24 rounded-2xl overflow-hidden border-2 border-cyan-400 shadow-[0_0_20px_rgba(56,189,248,0.4)] flex-shrink-0">
+                <div className="relative w-28 h-28 sm:w-32 sm:h-32 rounded-2xl overflow-hidden border-2 border-cyan-400 shadow-[0_0_25px_rgba(56,189,248,0.5)] flex-shrink-0">
                   <Image
-                    src="/photos/reuben-1.jpg"
+                    src="/photos/reuben-square.webp"
                     alt="Reuben Kimani Portrait"
                     fill
                     className="object-cover"
@@ -210,10 +210,10 @@ export function AboutSection() {
 
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {[
-              { src: "/photos/reuben-1.jpg", caption: "Executive Focus" },
-              { src: "/photos/reuben-2.jpg", caption: "Strategy & Vision" },
-              { src: "/photos/reuben-3.jpg", caption: "On-Site Direction" },
-              { src: "/photos/reuben-4.jpg", caption: "Founder & Architect" },
+              { src: "/photos/reuben-hero.webp", caption: "Executive Focus" },
+              { src: "/photos/reuben-uploaded.webp", caption: "On-Site / Field" },
+              { src: "/photos/reuben-1.webp", caption: "Strategy & Vision" },
+              { src: "/photos/reuben-2.webp", caption: "Founder & Architect" },
             ].map((photo, i) => (
               <div
                 key={i}

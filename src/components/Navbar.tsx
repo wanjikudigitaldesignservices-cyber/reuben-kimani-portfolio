@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Phone, MessageCircle, Sparkles, Menu, X, ArrowUpRight } from "lucide-react";
 import { profileData } from "@/lib/data";
@@ -31,11 +32,16 @@ export function Navbar() {
           href="#home"
           className="group flex items-center gap-3 text-white transition duration-200"
         >
-          <div className="relative flex items-center justify-center w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-indigo-600 text-slate-950 font-black text-lg shadow-[0_0_20px_rgba(56,189,248,0.5)] group-hover:scale-105 transition-transform">
-            RK
-            <span className="absolute -top-1 -right-1 flex h-3 w-3">
+          <div className="relative w-10 h-10 rounded-xl overflow-hidden border-2 border-cyan-400 shadow-[0_0_20px_rgba(56,189,248,0.5)] group-hover:scale-105 transition-transform flex-shrink-0">
+            <Image
+              src="/photos/reuben-square.webp"
+              alt="Reuben Kimani"
+              fill
+              className="object-cover"
+            />
+            <span className="absolute top-0 right-0 flex h-2.5 w-2.5 z-10">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+              <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
             </span>
           </div>
           <div>

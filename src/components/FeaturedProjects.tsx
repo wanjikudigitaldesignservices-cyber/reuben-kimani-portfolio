@@ -117,21 +117,34 @@ export function FeaturedProjects() {
                 </div>
               </div>
 
-              {/* Media Bento Mockup Layout */}
+              {/* Media Browser Window Mockup with Real Screenshot */}
               <div className="mt-8">
-                {/* Full-width featured preview screen */}
-                <div className="relative h-72 sm:h-96 md:h-[480px] rounded-2xl overflow-hidden border border-white/12 bg-slate-900 group shadow-2xl">
-                  <Image
-                    src={project.primaryImage}
-                    alt={`${project.title} Primary Architecture`}
-                    fill
-                    className="object-cover object-top group-hover:scale-102 transition-transform duration-500"
-                  />
-                  <div className="absolute top-3 right-3 flex items-center gap-2">
-                    <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-950/80 border border-white/15 px-3 py-1 text-[11px] font-mono text-emerald-400 backdrop-blur-md">
-                      <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                <div className="relative rounded-2xl overflow-hidden border border-white/14 bg-slate-950 group shadow-[0_20px_50px_rgba(0,0,0,0.8)]">
+                  {/* Browser Chrome Bar */}
+                  <div className="flex items-center justify-between px-4 py-2.5 bg-slate-900/90 border-b border-white/10">
+                    <div className="flex items-center gap-2">
+                      <span className="w-3 h-3 rounded-full bg-[#ff5f56]" />
+                      <span className="w-3 h-3 rounded-full bg-[#ffbd2e]" />
+                      <span className="w-3 h-3 rounded-full bg-[#27c93f]" />
+                    </div>
+                    <div className="flex items-center gap-1.5 px-4 py-1 rounded-full bg-white/5 border border-white/10 text-[11px] font-mono text-slate-400 truncate max-w-sm">
+                      <span className="text-emerald-400 text-xs">🔒</span>
+                      <span className="truncate text-cyan-300/90">{project.liveUrl || `https://${project.id}.vercel.app`}</span>
+                    </div>
+                    <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 px-2.5 py-0.5 text-[10px] font-mono text-emerald-400">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
                       Live Verified
                     </span>
+                  </div>
+
+                  {/* Real Homepage Screenshot Screen */}
+                  <div className="relative h-72 sm:h-96 md:h-[500px]">
+                    <Image
+                      src={project.primaryImage}
+                      alt={`${project.title} Live Website Screenshot`}
+                      fill
+                      className="object-cover object-top group-hover:scale-[1.01] transition-transform duration-500"
+                    />
                   </div>
                 </div>
               </div>
