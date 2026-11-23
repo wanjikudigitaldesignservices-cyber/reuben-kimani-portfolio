@@ -31,11 +31,11 @@ export function FeaturedProjects() {
               <span>// REUBEN KIMANI PORTFOLIO ARCHIVES</span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight uppercase">
-              FEATURED ENGINEERING &amp; SYSTEMS
+              FEATURED WEB PROJECTS
             </h2>
           </div>
           <p className="text-sm text-slate-400 max-w-md">
-            Production full-stack platforms, telemetry dashboards, network captive portals, and digital agency systems engineered for real-world reliability.
+            Production websites, web apps, SaaS platforms, and e-commerce stores — built for real businesses, deployed and generating revenue.
           </p>
         </div>
 
@@ -117,39 +117,10 @@ export function FeaturedProjects() {
                 </div>
               </div>
 
-              {/* Media Bento Mockup Layout - Exactly from Frame 11 */}
-              <div className="mt-8 grid grid-cols-1 md:grid-cols-12 gap-4">
-                {/* Left Column: Two stacked smaller cards */}
-                <div className="md:col-span-5 flex flex-col gap-4">
-                  <div className="relative h-44 sm:h-52 rounded-2xl overflow-hidden border border-white/10 bg-slate-900 group">
-                    <Image
-                      src={project.secondaryImages[0] || project.primaryImage}
-                      alt={`${project.title} Preview 1`}
-                      fill
-                      className="object-cover object-top opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
-                    <div className="absolute bottom-3 left-3 text-[11px] font-mono text-cyan-300 bg-slate-950/80 px-2.5 py-1 rounded-md border border-white/10">
-                      UI Component Matrix
-                    </div>
-                  </div>
-
-                  <div className="relative h-44 sm:h-52 rounded-2xl overflow-hidden border border-white/10 bg-slate-900 group">
-                    <Image
-                      src={project.secondaryImages[1] || project.primaryImage}
-                      alt={`${project.title} Preview 2`}
-                      fill
-                      className="object-cover object-top opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
-                    <div className="absolute bottom-3 left-3 text-[11px] font-mono text-cyan-300 bg-slate-950/80 px-2.5 py-1 rounded-md border border-white/10">
-                      Telemetry &amp; Database Sync
-                    </div>
-                  </div>
-                </div>
-
-                {/* Right Column: Large featured interactive preview screen */}
-                <div className="md:col-span-7 relative h-92 sm:h-[432px] rounded-2xl overflow-hidden border border-white/12 bg-slate-900 group shadow-2xl">
+              {/* Media Bento Mockup Layout */}
+              <div className="mt-8">
+                {/* Full-width featured preview screen */}
+                <div className="relative h-72 sm:h-96 md:h-[480px] rounded-2xl overflow-hidden border border-white/12 bg-slate-900 group shadow-2xl">
                   <Image
                     src={project.primaryImage}
                     alt={`${project.title} Primary Architecture`}

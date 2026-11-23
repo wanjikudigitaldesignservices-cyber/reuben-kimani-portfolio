@@ -29,7 +29,7 @@ export function AboutSection() {
             <span>WHO IS REUBEN KIMANI</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-black text-white tracking-tight uppercase">
-            ARCHITECTING DIGITAL EMPIRES WITH SOUL &amp; PRECISION
+            BUILDING WEBSITES THAT GROW BUSINESSES
           </h2>
         </div>
 
@@ -39,10 +39,10 @@ export function AboutSection() {
           <div className="lg:col-span-7 space-y-6">
             <div className="relative rounded-3xl border border-white/12 bg-slate-950/70 p-6 sm:p-8 backdrop-blur-xl shadow-xl">
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 pb-6 border-b border-white/10">
-                {/* Avatar thumbnail */}
+                {/* Real Photo */}
                 <div className="relative w-24 h-24 rounded-2xl overflow-hidden border-2 border-cyan-400 shadow-[0_0_20px_rgba(56,189,248,0.4)] flex-shrink-0">
                   <Image
-                    src="/avatar/neutral.webp"
+                    src="/photos/reuben-1.jpg"
                     alt="Reuben Kimani Portrait"
                     fill
                     className="object-cover"
@@ -66,13 +66,13 @@ export function AboutSection() {
               {/* Bio copy */}
               <div className="mt-6 space-y-4 text-slate-300 text-sm sm:text-base leading-relaxed">
                 <p>
-                  I don&apos;t just write code or assemble templates. I architect complete digital systems that solve real business bottlenecks and drive verifiable revenue.
+                  I don&apos;t just write code or assemble templates. I build complete web solutions that solve real business problems and drive measurable revenue growth.
                 </p>
                 <p>
-                  My journey spans low-level network packet routing, Cisco enterprise switches, and MikroTik captive infrastructure, right through to reactive Next.js full-stack applications, real-time Supabase cloud architectures, and autonomous AI agents.
+                  With 40+ shipped projects — from POS systems and hospital ERPs to coffee brand websites and booking engines — I&apos;ve helped SMEs, startups, and enterprises across East Africa launch digital products that actually convert.
                 </p>
                 <p>
-                  As the founder of <span className="text-white font-bold">LQD Creative</span>, my mission is simple: elevate businesses out of the noise. Too many ambitious companies look smaller, slower, and less credible online than the world-class quality they actually deliver. We close that gap with blisteringly fast engineering, uncompromising visual taste, and robust automation.
+                  As the founder of <span className="text-white font-bold">LQD Creative</span>, my mission is simple: give every ambitious business a web presence that matches the quality they actually deliver. Fast-loading, beautifully designed, mobile-first websites and web apps that turn visitors into customers.
                 </p>
               </div>
 
@@ -189,6 +189,50 @@ export function AboutSection() {
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* CEO Visual Gallery - Reuben Kimani in the field */}
+        <div className="mt-16 pt-12 border-t border-white/10">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+            <div>
+              <span className="text-xs font-mono font-bold uppercase tracking-widest text-cyan-400">
+                // LEADERSHIP &amp; FOUNDER
+              </span>
+              <h3 className="text-xl sm:text-2xl font-black text-white uppercase mt-1">
+                REUBEN KIMANI &bull; IN THE FIELD
+              </h3>
+            </div>
+            <p className="text-xs text-slate-400 font-mono">
+              Nairobi, Kenya &bull; Lead Architect @ LQD Creative
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            {[
+              { src: "/photos/reuben-1.jpg", caption: "Executive Focus" },
+              { src: "/photos/reuben-2.jpg", caption: "Strategy & Vision" },
+              { src: "/photos/reuben-3.jpg", caption: "On-Site Direction" },
+              { src: "/photos/reuben-4.jpg", caption: "Founder & Architect" },
+            ].map((photo, i) => (
+              <div
+                key={i}
+                className="group relative h-64 sm:h-80 rounded-2xl overflow-hidden border border-white/10 bg-slate-900 shadow-lg"
+              >
+                <Image
+                  src={photo.src}
+                  alt={`Reuben Kimani - ${photo.caption}`}
+                  fill
+                  className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity" />
+                <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between">
+                  <span className="text-[11px] font-mono text-cyan-300 bg-slate-950/80 px-2 py-0.5 rounded border border-white/10">
+                    {photo.caption}
+                  </span>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

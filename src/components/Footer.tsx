@@ -24,7 +24,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-xs sm:text-sm text-slate-400 max-w-sm leading-relaxed">
-              Full-Stack Software Engineer, AI Systems Architect &amp; Founder of LQD Creative. Helping founders, ISPs, and enterprises build high-velocity digital empires.
+              Full-Stack Web Developer &amp; Founder of LQD Creative. Helping businesses, startups, and SMEs build high-impact, high-converting websites and web applications.
             </p>
             <div className="flex items-center gap-2 text-xs font-mono text-cyan-400">
               <Terminal className="w-3.5 h-3.5" />

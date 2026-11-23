@@ -20,7 +20,7 @@ export function ContactSection() {
     name: "",
     email: "",
     phone: "",
-    service_needed: "Full-Stack Web Architecture",
+    service_needed: "Business Websites & Landing Pages",
     budget: "KES 150k - 300k",
     message: "",
   });
@@ -65,7 +65,7 @@ export function ContactSection() {
         name: "",
         email: "",
         phone: "",
-        service_needed: "Full-Stack Web Architecture",
+        service_needed: "Business Websites & Landing Pages",
         budget: "KES 150k - 300k",
         message: "",
       });
@@ -272,11 +272,11 @@ export function ContactSection() {
                         onChange={(e) => setFormData({ ...formData, service_needed: e.target.value })}
                         className="w-full rounded-xl bg-[#0f1422] border border-white/12 px-4 py-3 text-sm text-white focus:outline-none focus:border-cyan-400 transition"
                       >
-                        <option value="Full-Stack Web Architecture">Full-Stack Web Architecture</option>
-                        <option value="AI Automations & Multi-Agent Systems">AI Automations &amp; Multi-Agent Systems</option>
-                        <option value="Brand Architecture & Digital Empire">Brand Architecture &amp; Digital Empire</option>
-                        <option value="Captive Hotspot / MikroTik Infrastructure">Captive Hotspot / MikroTik Infrastructure</option>
-                        <option value="Full Studio Retainer / Consulting">Full Studio Retainer / Consulting</option>
+                        <option value="Business Websites & Landing Pages">Business Websites &amp; Landing Pages</option>
+                        <option value="Web Applications & SaaS Platforms">Web Applications &amp; SaaS Platforms</option>
+                        <option value="E-Commerce & Booking Systems">E-Commerce &amp; Booking Systems</option>
+                        <option value="UI/UX Design & Brand Websites">UI/UX Design &amp; Brand Websites</option>
+                        <option value="Full Web Consulting & Retainer">Full Web Consulting &amp; Retainer</option>
                       </select>
                     </div>
                   </div>

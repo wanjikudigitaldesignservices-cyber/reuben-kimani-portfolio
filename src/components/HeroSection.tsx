@@ -249,7 +249,7 @@ export function HeroSection() {
         {/* Bottom Left: Tagline in bold uppercase */}
         <div className="max-w-md text-center md:text-left">
           <p className="text-xs sm:text-sm font-extrabold tracking-widest text-slate-200 uppercase leading-relaxed">
-            CRAFTING HIGH-IMPACT DIGITAL EXPERIENCES, AI AUTOMATION &amp; VISIONARY SOFTWARE ARCHITECTURES
+            CRAFTING HIGH-IMPACT WEBSITES, WEB APPS &amp; DIGITAL PLATFORMS THAT GROW BUSINESSES
           </p>
           <div className="mt-2 flex items-center justify-center md:justify-start gap-4 text-xs font-mono text-cyan-400/90">
             <span>// Nairobi, Kenya</span>

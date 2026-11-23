@@ -1,0 +1,25 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.15)"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.1)"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="24" fill="url(#bg)"/>
+  <rect width="800" height="600" rx="24" fill="url(#shine)"/>
+  <rect x="40" y="40" width="720" height="520" rx="16" fill="rgba(0,0,0,0.25)" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <rect x="60" y="60" width="680" height="40" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <circle cx="82" cy="80" r="6" fill="#FF5F57"/>
+  <circle cx="102" cy="80" r="6" fill="#FEBC2E"/>
+  <circle cx="122" cy="80" r="6" fill="#28C840"/>
+  <rect x="60" y="120" width="680" height="420" rx="8" fill="rgba(0,0,0,0.2)"/>
+  <text x="400" y="300" text-anchor="middle" fill="white" font-family="system-ui,-apple-system,sans-serif" font-size="48" font-weight="800" letter-spacing="4">VERDELOOP</text>
+  <text x="400" y="350" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-family="system-ui,-apple-system,sans-serif" font-size="20" font-weight="400" letter-spacing="2">Waste Mgmt</text>
+  <rect x="300" y="380" width="200" height="4" rx="2" fill="rgba(255,255,255,0.3)"/>
+  <text x="400" y="420" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-family="system-ui,-apple-system,sans-serif" font-size="14" letter-spacing="6">LQD CREATIVE</text>
+</svg>

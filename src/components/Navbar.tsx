@@ -43,7 +43,7 @@ export function Navbar() {
               REUBEN KIMANI
             </span>
             <span className="text-[11px] text-slate-400 block tracking-widest uppercase">
-              Full-Stack &amp; AI Architect
+              Full-Stack Web Developer
             </span>
           </div>
         </Link>

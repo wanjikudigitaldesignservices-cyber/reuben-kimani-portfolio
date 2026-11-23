@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://reuben-kimani-portfolio.vercel.app"),
-  title: "Reuben Kimani | Full-Stack Engineer, AI Architect & Founder of LQD Creative",
+  title: "Reuben Kimani | Full-Stack Web Developer & Founder of LQD Creative",
   description:
-    "Official portfolio of Reuben Kimani. High-impact full-stack web applications, AI multi-agent workflows, Cisco & MikroTik network architecture, and digital empire systems in Nairobi, Kenya.",
+    "Official portfolio of Reuben Kimani. High-impact websites, web applications, e-commerce platforms, and SaaS products in Nairobi, Kenya. Phone: 0740396075.",
   keywords: [
     "Reuben Kimani",
     "LQD Creative",
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://reuben-kimani-portfolio.vercel.app",
-    title: "Reuben Kimani | Full-Stack Engineer & AI Systems Architect",
+    title: "Reuben Kimani | Full-Stack Web Developer",
     description:
-      "Crafting high-impact digital experiences, AI automation, and visionary software architectures. Founder @ LQD Creative.",
+      "Crafting high-impact websites, web apps & digital platforms that grow businesses. Founder @ LQD Creative.",
     siteName: "Reuben Kimani Portfolio",
     images: [
       {
